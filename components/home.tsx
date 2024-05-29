@@ -106,7 +106,7 @@ const Welcome = React.memo(() => {
   };
 
   const navigation = useNavigation()
-  const AnotherSc = useCallback((goto) => {
+  const AnotherSc = useCallback((goto:string) => {
     navigation.navigate(goto)
   }, [navigation])
 
